@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure--@d!rdf^z+rns)8$%jybu%^k9-k&hex6_ld8xbqv&i7))azy&^
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-klaramartinsson-django-b-b9gdq10azs.us2.codeanyapp.com', '.herokuapp.com']
